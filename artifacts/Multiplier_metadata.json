@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "resultado_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "dirResultado",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplier",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programa/SCConectados/Multiplier.sol": "Multiplier"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programa/SCConectados/Interfaces/IResultado.sol": {
+			"keccak256": "0x8d62506391b73cdfec481f1eeb8303bc12771fd67b1372e8314d9b648246bfad",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://ade6ae928a571deabe8a8afb58f6bb27d59d122f79e8aa78498b3cbc3b3f4a80",
+				"dweb:/ipfs/QmTEmLyYJH8jzbTYcYkSMpMpSAfTD6CMXpb6bkvuYVkqV4"
+			]
+		},
+		"contracts/Programa/SCConectados/Multiplier.sol": {
+			"keccak256": "0x8b9c07b32c259179214bc5756995b5ba9b7f5a0286a17dc7850c9a180e62288f",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://6350e4aaa931c8e0693a7f4ffd3991b03f2d24529287c762a7acdd0f4ab8ff88",
+				"dweb:/ipfs/QmQFHP8PjeZdGXeYXfFkC4Aq18P4SYKPzRgihxSw39WAcN"
+			]
+		}
+	},
+	"version": 1
+}

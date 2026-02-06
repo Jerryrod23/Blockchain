@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programa/Sender.sol": "Sender"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programa/Sender.sol": {
+			"keccak256": "0x8daa2436b0f8a9d1d1dd03dfe5b388282a5dddd68651d1956d76f4f70157444b",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://e64a0a022f79abc526fdbac21a461c0c439c920647b2b1f41fc1d356e6316e8f",
+				"dweb:/ipfs/QmQzRw5C8UerthGYmUFV84yPA37QPSVPFSrQY1n1zT8ePB"
+			]
+		}
+	},
+	"version": 1
+}

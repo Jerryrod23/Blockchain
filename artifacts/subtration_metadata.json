@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "resultado_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "direccionResultado",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "subtract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programa/SCConectados/subtration.sol": "subtration"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programa/SCConectados/Interfaces/IResultado.sol": {
+			"keccak256": "0x8d62506391b73cdfec481f1eeb8303bc12771fd67b1372e8314d9b648246bfad",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://ade6ae928a571deabe8a8afb58f6bb27d59d122f79e8aa78498b3cbc3b3f4a80",
+				"dweb:/ipfs/QmTEmLyYJH8jzbTYcYkSMpMpSAfTD6CMXpb6bkvuYVkqV4"
+			]
+		},
+		"contracts/Programa/SCConectados/subtration.sol": {
+			"keccak256": "0xea50f6d898d6e68f53ddbd8527ea7fef0590549c90e46ad9546a8f90baa37154",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://5764fd605785988b9119ebbe52103f9d50b65197267921bfdf0026943ec0a316",
+				"dweb:/ipfs/QmPdhuCPXBpEKWZgYDQq1JZ56LvDJfUyH3imQAdgzByj4Q"
+			]
+		}
+	},
+	"version": 1
+}
