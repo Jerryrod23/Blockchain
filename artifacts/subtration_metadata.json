@@ -18,7 +18,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "direccionResultado",
+				"name": "dirResultado",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -84,11 +84,11 @@
 			]
 		},
 		"contracts/Programa/SCConectados/subtration.sol": {
-			"keccak256": "0xea50f6d898d6e68f53ddbd8527ea7fef0590549c90e46ad9546a8f90baa37154",
+			"keccak256": "0x5343dc6db0010551016f37ada66367dcfd89d079f1c494ae611a03710f5ec8d8",
 			"license": "LGPL-3.0-only",
 			"urls": [
-				"bzz-raw://5764fd605785988b9119ebbe52103f9d50b65197267921bfdf0026943ec0a316",
-				"dweb:/ipfs/QmPdhuCPXBpEKWZgYDQq1JZ56LvDJfUyH3imQAdgzByj4Q"
+				"bzz-raw://4641e84f17483f1ede46c40b3c8b601cb9d82dd4bfc8b48eb63e4c15f4f7de3b",
+				"dweb:/ipfs/QmcSCfgQLMZkf8r4jqW8foSUTr9Fv8jMswQZ7uQ4sY8o4H"
 			]
 		}
 	},

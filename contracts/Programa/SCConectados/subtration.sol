@@ -10,10 +10,10 @@ contract subtration {
     // variables
 
     //address del smart contrat de resultado, el cual quiero invocar.
-    address public direccionResultado; 
+    address public dirResultado; 
 
     constructor(address resultado_) {
-        direccionResultado = resultado_;
+        dirResultado = resultado_;
     }
 
     // Modifiers
@@ -27,7 +27,7 @@ contract subtration {
     function subtract(uint256 num1_, uint256 num2_) external  {
         uint256 resultado_ = num1_ - num2_;
 
-        IResultado(direccionResultado).setResultado(resultado_);
+        IResultado(dirResultado).setResultado(resultado_);
     }
 
     // Internal Functions 
