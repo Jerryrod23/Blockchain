@@ -29,7 +29,7 @@ contract RequireTest {
     }
     // use require
     function CheckAdmin2() public view {
-        require(msg.sender == admin, "msg.sender is not admin");
+        require(msg.sender == admin, "msg.sender is not adminn");
     }
     //if con custom error
     function CheckAdmin3() public view{
