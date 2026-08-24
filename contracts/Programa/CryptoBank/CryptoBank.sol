@@ -27,7 +27,6 @@ contract CryptoBank {
         maxBalance = maxBalance_;
         admin = admin_;
     }
-
     
     // Modifiers 
 
@@ -45,7 +44,7 @@ contract CryptoBank {
 
      function deposit() external payable {
         require(msg.value <= maxBalance, string.concat("No puedes depositar mas deether"));
-        require(msg.value != 0, "No puedes depositar 0 ether");
+        require(msg.value > 0, "No puedes depositar 0 ether");
         if(userBalance[msg.sender] + msg.value > maxBalance) revert("No puedes depositar mas de ether");  //revert("No puedes depositar mas de 10 ether"); [msg.sender]);
         userBalance[msg.sender] += msg.value;
         emit Deposit(msg.sender, msg.value);
@@ -54,7 +53,7 @@ contract CryptoBank {
     // 2. Withdraw 
     
     function withdraw(uint256 amount_) external {
-        // CEI pattern: 1. Checks 2. Update state 3. Interaction
+        // CEI pattern: 1. Checks 2. Effects (Update state) 3. Interaction
         
         require(amount_ <= userBalance[msg.sender], "You don't have enough balance to withdraw"); 
 
